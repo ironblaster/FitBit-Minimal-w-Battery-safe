@@ -1,0 +1,29 @@
+ <svg>
+   
+   <image id="battery"/>
+   <image id="meteoimg"/>
+
+   
+<image id="ripple"href="binanceIcon.png"/>
+   <text id="ripplevalue" text-length="32"/>
+    <image id="spotify"href="spotifyicon.png"/>
+   <text id="spotifyvalue" text-length="32"/>
+  <text id="localizzazione" text-length="32"/>
+   
+  <image id="cuore" href="heart.png"/>
+   <text id="cuorevalue" text-length="10"/>
+   
+  <text id="orologio" />
+
+  <text id="batterypercentage" />
+   
+   <text id="temperature"text-length="32" />
+   
+   
+   <text id="giorno" />
+  
+<!--  </svg>
+  
+</use>-->
+
+</svg>

@@ -1,0 +1,201 @@
+/*.background {
+  viewport-fill:;
+}*/
+
+#orologio {
+  font-size: 120;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: middle;
+  x: 50%;
+  y: 50%+40;
+  fill: white;
+}
+
+#giorno {
+  font-size: 50;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: middle;
+  x: 50%;
+  y: 50%+90;
+  fill: white;
+}
+
+
+
+
+
+#batterypercentage{
+  text-length: 4;
+  font-size: 16;
+  line-increment: 26;
+  font-weight: bold;
+  fill: white;
+  x:62;
+  y:45;
+  
+}
+
+#temperature{
+  text-length: 4;
+  text-anchor: end;
+  font-size: 16;
+  line-increment: 26;
+  font-weight: bold;
+  fill: white;
+  x:260;
+  y:48-5;
+  
+}
+#meteoimg{
+  x: 255;
+  y: 19-5;
+ width: 13%;
+ height: 13%;  
+
+}
+
+
+
+
+
+#battery{
+  x: 30;
+  y: 31;
+  width: 9%;
+  height: 5%;
+  fill: white;
+}
+
+
+
+
+
+#ripple{
+  x: 30;
+  y: 61;
+  width: 7%;
+  height: 23;
+  fill: white;
+}
+
+ #ripplevalue{
+  text-length: 4;
+  font-size: 20;
+  line-increment: 26;
+  font-weight: bold;
+  fill: white;
+  x:62;
+  y:77;
+  
+}
+
+ #spotifyvalue{
+  text-length: 32;
+  font-size: 20;
+  line-increment: 26;
+  font-weight: bold;
+  fill: white;
+  x:62;
+  y:106;
+  
+}
+
+#spotify{
+  x: 28;
+  y: 90;
+  width: 7%;
+  height: 23;
+  fill: white;
+}
+
+#binance{
+  x: 30;
+  y: 91;
+  width: 7%;
+  height: 23;
+  fill: white;
+}
+
+ #binancevalue{
+  text-length: 4;
+  font-size: 20;
+  line-increment: 26;
+  font-weight: bold;
+  fill: white;
+  x:62;
+  y:109;
+  
+}
+
+ #binancevalue{
+  text-length: 4;
+  font-size: 20;
+  line-increment: 26;
+  font-weight: bold;
+  fill: white;
+  x:62;
+  y:109;
+  
+}
+
+#localizzazione{
+  text-length: 4;
+  font-size: 16;
+  line-increment: 26;
+  fill: white;
+  y:329;
+  x:50%;
+  text-anchor: middle;
+}
+
+#cuorevalue{
+  text-length: 4;
+  font-size: 16;
+  line-increment: 26;
+  fill: white;
+  y:295;
+  x:50%-5;
+  text-anchor: end;
+}
+
+#cuore{
+  x:50%+5;
+  y: 280;
+  width: 6%;
+  height: 6%;
+  fill: white;
+}
+
+#bluetoothstatus{
+  x: 294;
+  y: 32;
+  width: 7%;
+  height: 8%;
+}
+
+
+.application-fill           { fill: fb-cyan; }
+.app-gradient-background    { fill: fb-blue;}
+.foreground-fill            { fill: fb-white; }
+.background-fill            { fill: fb-black; }
+
+.h1  { font-size: 80; line-increment: 100; font-weight: bold;fill: white;}
+.h2  { font-size: 50; line-increment: 60;  font-weight: bold;fill: white;}
+.h3  { font-size: 34; line-increment: 42;  font-weight: bold; font-step-size: 4; min-font-size: 24;fill: white;}
+.h4  { font-size: 28; line-increment: 34;  font-weight: bold; font-step-size: 4; min-font-size: 24;fill: white;}
+.h5  { font-size: 22; line-increment: 26;  font-weight: bold;fill: white;}
+
+.p1  { font-size: 34; line-increment: 42; font-step-size: 4; min-font-size: 24; fill: white;fill: white;}
+.p2  { font-size: 28; line-increment: 34; font-step-size: 4; min-font-size: 24;fill: white; }
+.p3  { font-size: 22; line-increment: 26; }
+
+/* Helpers */
+.stack-gap                       { y: $+6; }
+.center-text                     { text-anchor: middle; display-align: center; }
+.horizontal-pad                  { x: 18; width: 100%-36; }
+.horizontal-pad-header           { x: 30; width: 100%-60; }
+.touch-area                      { width: 100%; height: 100%; opacity: 0;}
+.uppercase                       { text-transform: uppercase; }
+.full-size                       { x: 0; y: 0; width: 100%; height: 100%; }
